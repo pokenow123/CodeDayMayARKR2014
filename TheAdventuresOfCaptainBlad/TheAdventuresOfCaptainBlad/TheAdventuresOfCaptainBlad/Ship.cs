@@ -16,7 +16,9 @@ namespace TheAdventuresOfCaptainBlad
         public int SPEED;
         public int CREW;
 
-        public Tile[,] SHIPGRID;
+        public ShipLayout; 
+        public Tile[,] SHIPGRID = new Tile[19, 4];
+
 
         //screw gitHub to the sticking place
         //hull - regenerates over time
