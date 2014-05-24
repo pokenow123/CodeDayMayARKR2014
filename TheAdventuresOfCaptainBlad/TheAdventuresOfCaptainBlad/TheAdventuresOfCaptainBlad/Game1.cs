@@ -19,6 +19,9 @@ namespace TheAdventuresOfCaptainBlad
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        public static Game game;
+        GameControl gameControl = new GameControl(game);
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);

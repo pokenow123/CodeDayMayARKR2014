@@ -17,6 +17,8 @@ namespace TheAdventuresOfCaptainBlad
     /// </summary>
     public class GameControl : Microsoft.Xna.Framework.GameComponent
     {
+        Texture2D selectionBox;
+
         public GameControl(Game game)
             : base(game)
         {
@@ -32,6 +34,11 @@ namespace TheAdventuresOfCaptainBlad
             // TODO: Add your initialization code here
 
             base.Initialize();
+        }
+
+        public void LoadContent(ContentManager content)
+        {
+            selectionBox = content.Load<Texture2D>(@"MainMenuImages/SelectionBox");
         }
 
         /// <summary>
