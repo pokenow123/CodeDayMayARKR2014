@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheAdventuresOfCaptainBlad", "TheAdventuresOfCaptainBlad\TheAdventuresOfCaptainBlad\TheAdventuresOfCaptainBlad.csproj", "{1006A311-DE8E-42F4-A796-8E5A2C15C070}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "TheAdventuresOfCaptainBladContent", "TheAdventuresOfCaptainBlad\TheAdventuresOfCaptainBladContent\TheAdventuresOfCaptainBladContent.contentproj", "{76213D4F-4B63-4DB5-A399-424672D8726E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1006A311-DE8E-42F4-A796-8E5A2C15C070}.Debug|x86.ActiveCfg = Debug|x86
+		{1006A311-DE8E-42F4-A796-8E5A2C15C070}.Debug|x86.Build.0 = Debug|x86
+		{1006A311-DE8E-42F4-A796-8E5A2C15C070}.Release|x86.ActiveCfg = Release|x86
+		{1006A311-DE8E-42F4-A796-8E5A2C15C070}.Release|x86.Build.0 = Release|x86
+		{76213D4F-4B63-4DB5-A399-424672D8726E}.Debug|x86.ActiveCfg = Debug|x86
+		{76213D4F-4B63-4DB5-A399-424672D8726E}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
